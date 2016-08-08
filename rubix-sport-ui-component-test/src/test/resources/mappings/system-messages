@@ -1,0 +1,166 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/system-messages"
+  },
+  "response": {
+    "status": 200,
+    "json-body": [
+      {
+        "id": 3,
+        "message": "No mapping for 'MLS' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 4,
+        "message": "No mapping for 'Premier Division' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 9,
+        "message": "No mapping for 'Eliteserien' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 10,
+        "message": "No mapping for 'Allsvenskan' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 12,
+        "message": "Bookmaker name not found. PAF.es for sport: Football",
+        "messageType": "bookmaker",
+        "deleted": false
+      },
+      {
+        "id": 21,
+        "message": "No mapping for 'Superettan' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 22,
+        "message": "No mapping for '1. Division' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 23,
+        "message": "No mapping for 'Veikkausliiga' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 24,
+        "message": "No mapping for 'CSL' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 26,
+        "message": "No mapping for 'Super Cup' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 45,
+        "message": "No mapping for 'Supercopa MX' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 51,
+        "message": "No mapping for 'Superliga' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 53,
+        "message": "No mapping for 'League Cup' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 56,
+        "message": "No mapping for 'Ekstraklasa' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 60,
+        "message": "No mapping for 'Liga MX' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 62,
+        "message": "No mapping for 'International Champions Cup' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 73,
+        "message": "No mapping for 'Pro League' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 74,
+        "message": "No mapping for 'Premier League' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 79,
+        "message": "No mapping for 'MLS All-Star' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 80,
+        "message": "No mapping for 'Olympics' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 81,
+        "message": "No mapping for 'Olympics Women' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 86,
+        "message": "No mapping for 'Liga I' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 94,
+        "message": "No mapping for 'Community Shield' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 97,
+        "message": "No mapping for 'League One' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 98,
+        "message": "No mapping for 'Conference National' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      },
+      {
+        "id": 100,
+        "message": "No mapping for 'UEFA Super Cup' league from 'txodds' feed for sport 'Football'",
+        "messageType": "league",
+        "deleted": false
+      }
+    ]
+  }}

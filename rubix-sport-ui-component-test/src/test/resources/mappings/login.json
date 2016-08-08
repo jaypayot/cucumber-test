@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/login/admin/admin"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "response": "0",
+      "role": "admin",
+      "token": "ae5b4986ac5ddf204ee127bd4c6d28fb",
+      "id": 89
+    }
+  }
+}

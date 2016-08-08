@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/user/89/ae5b4986ac5ddf204ee127bd4c6d28fb"
+  },
+  "response": {
+    "status": 200
+  }
+}
