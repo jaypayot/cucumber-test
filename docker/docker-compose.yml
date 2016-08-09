@@ -1,0 +1,26 @@
+version: "2"
+services:
+  mock:
+    image: tabcorp-cicd-artifactory-elb-1406478054.ap-southeast-2.elb.amazonaws.com:6555/tabcorp-wiremock:1.58
+    ports:
+      - "8000:8000"
+    # This adds the wiremock mappings files into the container
+    volumes:
+      - ./src/test/resources/mappings:/app/mappings
+  tabcorp-ui:
+    image: tabcorp-cicd-artifactory-elb-1406478054.ap-southeast-2.elb.amazonaws.com:6555/rubix-sport-ui:PR-13
+    ports:
+        - "80:80"
+        - "443:443"
+    environment:
+        - RUBIX_WS_URL=http://mock:8000
+    links:
+      - mock
+  selenium:
+       image: selenium/standalone-chrome:2.53.0
+  #     depends_on:
+  #        - ui
+       volumes:
+          - "/dev/shm:/dev/shm" # Added to address this issue: https://code.google.com/p/chromium/issues/detail?id=519952
+       ports:
+          - "4444:4444"
